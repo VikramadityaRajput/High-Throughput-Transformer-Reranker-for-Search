@@ -1,0 +1,14 @@
+# Data & ML Basics
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+
+# NLP & Modeling
+torch==2.2.0
+transformers==4.37.2
+rank_bm25==0.2.2  # For our Week 1 baseline
+
+# Systems & Optimization (Future weeks)
+onnxruntime==1.17.0
+fastapi==0.109.0
+uvicorn==0.27.0
