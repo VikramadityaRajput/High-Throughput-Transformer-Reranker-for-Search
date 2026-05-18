@@ -1,7 +1,6 @@
 import pandas as pd
 from rank_bm25 import BM25Okapi
 import numpy as np
-import os # Added os to handle paths safely like we discussed!
 
 def bm25_search(data_path="../data/raw/esci_sample.parquet"):
     # Using the safe absolute path method
